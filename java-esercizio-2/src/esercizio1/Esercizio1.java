@@ -12,7 +12,7 @@ public class Esercizio1 {
         System.out.println("Inserisci un anno e ti dirò se è bisestile:");
         int anno = Integer.parseInt(sc.nextLine());
         System.out.println(annoBisestile(anno));
-
+        
 
     }
 
@@ -26,7 +26,7 @@ public class Esercizio1 {
 
     public static boolean annoBisestile(int anno) {
         if (anno % 4 == 0) {
-            if (anno % 100 != 0 && anno % 400 != 1) {
+            if (anno % 100 != 1 && anno % 400 != 1) {
                 return true;
             } else {
                 return false;

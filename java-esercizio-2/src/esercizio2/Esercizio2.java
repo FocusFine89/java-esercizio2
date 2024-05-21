@@ -9,16 +9,16 @@ public class Esercizio2 {
         int numero = Integer.parseInt(sc.nextLine());
         switch (numero) {
             case 0:
-                System.out.println(String.valueOf(numero));
+                System.out.println("zero");
                 break;
             case 1:
-                System.out.println(String.valueOf(numero));
+                System.out.println("uno");
                 break;
             case 2:
-                System.out.println(String.valueOf(numero));
+                System.out.println("due");
                 break;
             case 3:
-                System.out.println(String.valueOf(numero));
+                System.out.println("tre");
                 break;
             default:
                 System.out.println("Errore " + numero + " non è compreso tra 0 e 3");
